@@ -35,7 +35,8 @@ This ensures clean separation of concerns and maximum reusability.
 🧪 **Test Cases**
 
 **1. Round‑Trip Booking Flow**
-File: tests/booking/booking-flow.spec.ts
+
+📁File: tests/booking/booking-flow.spec.ts
 
 Covers:
 
@@ -52,7 +53,8 @@ Entering payment details
 Verifying booking confirmation
 
 **2. One‑Way Flight Search**
-File: tests/booking/one-way-search.spec.ts
+
+📁File: tests/booking/one-way-search.spec.ts
 
 Validates:
 
@@ -65,6 +67,7 @@ At least one flight is available
 This test ensures search functionality works independently of booking.
 
 **3. Negative Test — Invalid Dates (Return < Departure)**
+
 📁 File: tests/booking/invalid-dates.spec.ts
 
 Ensures the app validates date logic
