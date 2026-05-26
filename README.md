@@ -5,15 +5,15 @@
 Page Object Model (POM)
 Each page of the airline booking application is represented as a separate class:
 
-HomePage — search inputs, date pickers, navigation
+HomePage — Search inputs, Date pickers, Navigation
 
-SearchResultsPage — flight list, selection
+SearchResultsPage — Flight list, Selection
 
-FlightDetailsPage — fare details, continue
+FlightDetailsPage — Fare details, Continue
 
-PassengerDetailsPage — passenger form
+PassengerDetailsPage — Passenger form
 
-PaymentPage — payment + confirmation
+PaymentPage — Payment + Confirmation
 
 This ensures clean separation of concerns and maximum reusability.
 
