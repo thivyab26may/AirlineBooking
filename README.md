@@ -31,6 +31,27 @@ This ensures clean separation of concerns and maximum reusability.
 
 <img width="724" height="54" alt="Screenshot 2026-05-24 at 3 24 44 PM" src="https://github.com/user-attachments/assets/c7a75fb0-d1f3-499a-ad74-aa8d3074b33f" />
 
+🧩 **Key Features**
+
+Reusable POM classes
+
+Async/await Playwright flow
+
+Locator‑first design
+
+Cross‑browser support
+
+Configurable test runner
+
+🛠️ **Tech Stack**
+
+Playwright (UI automation)
+
+TypeScript
+
+Playwright Test Runner
+
+Page Object Model (POM)
 
 🧪 **Test Cases**
 
@@ -69,6 +90,8 @@ This test ensures search functionality works independently of booking.
 **3. Negative Test — Invalid Dates (Return < Departure)**
 
 📁 File: tests/booking/invalid-dates.spec.ts
+
+Validates:
 
 Ensures the app validates date logic
 
